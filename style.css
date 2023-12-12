@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 55);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.left{
+  margin: 10px;
+}
+/*-------------------- Navbar styling starts here --------------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(0, 0, 33);
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgb(232, 232, 22);
+  transform: rotate(360deg) scale(3);
+}
+
+.changingText {
+    transition: text-shadow 0.3s, color 0.3s;
+    font-size: 1.5rem;
+}
+
+.leftSection {
+    width: 30%;
+}
+
+.rightSection {
+    width: 30%;
+    margin: -2.5%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.heading h1{
+  margin-left: 10px;
+  text-align: center;
+  color: #3498db;
+  text-shadow:1px 1px 10px #ff00d0;
+}
+.box{
+  margin: 25px;
+}
+
+
+.box p{
+  color: aqua;
+}
+.firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(27, 3, 48, 0.891);
+}
+
+.leftSection {
+    width: 30%;
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rightSection {
+    width: 30%;
+    text-align: center;
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer h1{
+    height: 10px;
+    margin: 34px 20px;
+    box-sizing: border-box;
+}
+/* Navbar styling ends here */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* about page styling starts here */
+
+
+
+
+/* -------------------- about page styling ends her ------------------- */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .grid-container p{
+    color: rgb(5, 22, 66);
+  }
+  .grid-item {
+    background-color: #237db9d2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+/*  */
+/* -------------------- Project page styling ends here --------------------- */
+/* footer{
+  min-height: 20px;
+} */
